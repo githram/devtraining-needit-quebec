@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
+    <sys_report action="DELETE">
+        <additional_groupby>u_what_needed,u_requested_for</additional_groupby>
+        <aggregate>COUNT</aggregate>
+        <aggregation_source>no_override</aggregation_source>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
+        <apply_alias>false</apply_alias>
+        <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
+        <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
+        <bar_unstack>false</bar_unstack>
+        <calendar/>
+        <chart_background_color/>
+        <chart_border_color/>
+        <chart_border_radius>0</chart_border_radius>
+        <chart_border_width>1</chart_border_width>
+        <chart_height>450</chart_height>
+        <chart_size>large</chart_size>
+        <chart_subtitle/>
+        <chart_subtitle_color/>
+        <chart_subtitle_size>14</chart_subtitle_size>
+        <chart_subtitle_style>normal</chart_subtitle_style>
+        <chart_title>Request Type - NeedIt</chart_title>
+        <chart_title_color display_value="Darkorange">65b30254a9fe3dba00b44ce0710382b3</chart_title_color>
+        <chart_title_size>20</chart_title_size>
+        <chart_title_style>normal</chart_title_style>
+        <chart_title_x_position>0</chart_title_x_position>
+        <chart_title_y_position>0</chart_title_y_position>
+        <chart_width>600</chart_width>
+        <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
+        <color_palette display_value="Default">68d08c72d700210096614251ce61039e</color_palette>
+        <colors/>
+        <column/>
+        <compute_percent>aggregate</compute_percent>
+        <content/>
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <custom_chart_size>false</custom_chart_size>
+        <custom_chart_title_position>false</custom_chart_title_position>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <decimal_precision>2</decimal_precision>
+        <description/>
+        <direction>minimize</direction>
+        <display_column_lines>false</display_column_lines>
+        <display_grid>true</display_grid>
+        <display_row_lines>false</display_row_lines>
+        <donut_width_percent>42</donut_width_percent>
+        <end_time/>
+        <exp_report_attrs>true</exp_report_attrs>
+        <field>u_request_type</field>
+        <field_list>number,priority,state,u_when_needed,u_requested_for,assigned_to,u_request_type,sys_updated_on</field_list>
+        <filter/>
+        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
+        <from/>
+        <funnel_neck_percent>30</funnel_neck_percent>
+        <gauge_autoscale>true</gauge_autoscale>
+        <group/>
+        <import_table/>
+        <interval>year</interval>
+        <is_published>true</is_published>
+        <is_real_time>false</is_real_time>
+        <is_scheduled>true</is_scheduled>
+        <legend_align_columns>true</legend_align_columns>
+        <legend_background_color/>
+        <legend_border_color/>
+        <legend_border_radius>0</legend_border_radius>
+        <legend_border_width>1</legend_border_width>
+        <legend_horizontal_alignment>center</legend_horizontal_alignment>
+        <legend_items_left_align>false</legend_items_left_align>
+        <legend_vertical_alignment>bottom</legend_vertical_alignment>
+        <list_ui_view/>
+        <location_field/>
+        <lower_limit/>
+        <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
+        <map_source/>
+        <orderby_list/>
+        <other_threshold>-2</other_threshold>
+        <others>true</others>
+        <page_hdrftr/>
+        <pivot_expanded>true</pivot_expanded>
+        <report_drilldown/>
+        <report_source/>
+        <roles>public,x_58872_needit.needit_user,public</roles>
+        <row/>
+        <sc_groupby_item_id/>
+        <sc_groupby_variable_id/>
+        <sc_stackby_item_id/>
+        <sc_stackby_variable_id/>
+        <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
+        <series_name_text/>
+        <set_color>color_palette</set_color>
+        <show_chart_border>false</show_chart_border>
+        <show_chart_data_label>true</show_chart_data_label>
+        <show_chart_title>report</show_chart_title>
+        <show_chart_total>true</show_chart_total>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_empty>false</show_empty>
+        <show_geographical_label>false</show_geographical_label>
+        <show_legend>false</show_legend>
+        <show_legend_border>false</show_legend_border>
+        <show_marker>false</show_marker>
+        <show_zero>false</show_zero>
+        <source_type>table</source_type>
+        <start_time/>
+        <style_config/>
+        <sumfield/>
+        <sys_class_name>sys_report</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-09 10:27:24</sys_created_on>
+        <sys_id>c6cbf7e41b59b010219fc991604bcb22</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>NeedIt Requests by Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_report_c6cbf7e41b59b010219fc991604bcb22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-09 15:12:59</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <title>NeedIt Requests by Type</title>
+        <title_horizontal_alignment>left</title_horizontal_alignment>
+        <title_vertical_alignment>top</title_vertical_alignment>
+        <to/>
+        <trend_field/>
+        <type>donut</type>
+        <upper_limit/>
+        <use_color_heatmap>false</use_color_heatmap>
+        <use_null_in_trend>false</use_null_in_trend>
+        <user>group</user>
+        <x_axis_allow_decimals>true</x_axis_allow_decimals>
+        <x_axis_display_grid>false</x_axis_display_grid>
+        <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
+        <x_axis_grid_dotted>false</x_axis_grid_dotted>
+        <x_axis_grid_width>1</x_axis_grid_width>
+        <x_axis_label_bold>false</x_axis_label_bold>
+        <x_axis_label_color/>
+        <x_axis_label_size>11</x_axis_label_size>
+        <x_axis_label_tilt>0</x_axis_label_tilt>
+        <x_axis_opposite>false</x_axis_opposite>
+        <x_axis_title/>
+        <x_axis_title_bold>true</x_axis_title_bold>
+        <x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color>
+        <x_axis_title_size>12</x_axis_title_size>
+        <y_axis_allow_decimals>true</y_axis_allow_decimals>
+        <y_axis_display_grid>true</y_axis_display_grid>
+        <y_axis_from/>
+        <y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color>
+        <y_axis_grid_dotted>false</y_axis_grid_dotted>
+        <y_axis_grid_width>1</y_axis_grid_width>
+        <y_axis_label_bold>false</y_axis_label_bold>
+        <y_axis_label_color/>
+        <y_axis_label_size>11</y_axis_label_size>
+        <y_axis_label_tilt>0</y_axis_label_tilt>
+        <y_axis_opposite>false</y_axis_opposite>
+        <y_axis_title/>
+        <y_axis_title_bold>true</y_axis_title_bold>
+        <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
+        <y_axis_title_size>12</y_axis_title_size>
+        <y_axis_to/>
+    </sys_report>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c475eac1db4c74105749cac50596194b</instance_id>
+        <instance_name>dev114649</instance_name>
+        <name>sys_report_c6cbf7e41b59b010219fc991604bcb22</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report"><sys_report action="INSERT_OR_UPDATE"><additional_groupby>u_what_needed,u_requested_for</additional_groupby><aggregate>COUNT</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><chart_background_color/><chart_border_color/><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>large</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size>14</chart_subtitle_size><chart_subtitle_style>normal</chart_subtitle_style><chart_title>Request Type - NeedIt</chart_title><chart_title_color display_value="Darkorange">65b30254a9fe3dba00b44ce0710382b3</chart_title_color><chart_title_size>20</chart_title_size><chart_title_style>normal</chart_title_style><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default">68d08c72d700210096614251ce61039e</color_palette><colors/><column/><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config><decimal_precision>2</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>true</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>42</donut_width_percent><end_time/><exp_report_attrs>true</exp_report_attrs><field>u_request_type</field><field_list>number,priority,state,u_when_needed,u_requested_for,assigned_to,u_request_type,sys_updated_on</field_list><filter/><formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>true</gauge_autoscale><group/><import_table/><interval>year</interval><is_published>true</is_published><is_real_time>false</is_real_time><is_scheduled>true</is_scheduled><legend_align_columns>true</legend_align_columns><legend_background_color/><legend_border_color/><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><orderby_list/><other_threshold>-2</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><report_drilldown/><report_source/><roles>public,x_58872_needit.needit_user,public</roles><row/><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>color_palette</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>true</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>true</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>false</show_legend><show_legend_border>false</show_legend_border><show_marker>false</show_marker><show_zero>false</show_zero><source_type>table</source_type><start_time/><style_config/><sumfield/><sys_class_name>sys_report</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-09 10:27:24</sys_created_on><sys_id>c6cbf7e41b59b010219fc991604bcb22</sys_id><sys_mod_count>12</sys_mod_count><sys_name>NeedIt Requests by Type</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_report_c6cbf7e41b59b010219fc991604bcb22</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-09 15:12:59</sys_updated_on><table>x_58872_needit_needit</table><title>NeedIt Requests by Type</title><title_horizontal_alignment>left</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field/><type>donut</type><upper_limit/><use_color_heatmap>false</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>group</user><x_axis_allow_decimals>true</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt>0</x_axis_label_tilt><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>true</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt>0</y_axis_label_tilt><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+        <payload_hash>-1158612683</payload_hash>
+        <record_name>NeedIt Requests by Type</record_name>
+        <reverted_from/>
+        <source>4dc83c801bd93010219fc991604bcbea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-09 15:12:59</sys_created_on>
+        <sys_id>d52d3cb81b1db010219fc991604bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a8bd43ac40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-09 15:12:59</sys_updated_on>
+        <type>Report</type>
+        <update_guid>512d3cb8ef1db01058acdb725c70c600</update_guid>
+        <update_guid_history>512d3cb8ef1db01058acdb725c70c600:-1158612683,904494f8d499b010182dbe61f9abdcea:556766562,9fb018386f99b0102368b7442e145821:-499977841,19c680706599b0109c532a29d8a100b1:1501557733,d6d580306b99b01050d259ab75ef919f:1644064807,6cde77e8b559b01042d17c5a9216b3a4:-1765326793,7ebe33689359b010a71622614a8f198f:1745786995,22ae33681659b010884d0ff12e29aca4:-190069441,568ef7a86859b010bbb666c9ba025bcc:-1235144010,029d33683059b010356901e5c1053a8a:-781600460,271df368f259b010267e17c258b5a772:-786770139,f6dc7b288759b01020ae6e25715560e9:-1122395153,82cb33288e59b0106fa649eb16a6fde5:91289571</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt Requests by Type">055a9ea11b113010219fc991604bcbe8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 05:55:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_report">sys_report</sys_db_object>
+        <sys_id>0a9dc36e3db94c85885e779841b60c89</sys_id>
+        <sys_metadata>c6cbf7e41b59b010219fc991604bcb22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Requests by Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">1aadc62d1b78b010219fc991604bcbaa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_report_c6cbf7e41b59b010219fc991604bcb22</sys_update_name>
+        <sys_update_version display_value="sys_report_c6cbf7e41b59b010219fc991604bcb22">d52d3cb81b1db010219fc991604bcb00</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 05:55:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
